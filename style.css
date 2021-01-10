@@ -237,3 +237,27 @@ caption{
 	border-radius: 5px;
 	margin-right: 0px;
 }
+.reg, .log{
+	width: 30%;
+	margin: 0 auto;
+}
+.reg form, .log form{
+	margin-top: 15px;
+}
+.reg form input, .log form input{
+	width: 100%;
+	box-sizing: border-box;
+	padding: 10px;
+	margin-bottom: 5px;
+	outline: none;
+	border: none;
+	background-color: white;
+}
+.reg form, .log form{
+	width: 100%;
+}
+.reg_sub:last-of-type, .log_sub:last-of-type{
+	background-color: red;
+	color: white;
+	cursor: pointer;
+}
