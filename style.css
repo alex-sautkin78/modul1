@@ -211,7 +211,7 @@ footer p{
 .search_tab{
 	width: 80%;
 	margin: 0 auto;
-	
+	margin-bottom: 80px;
 }
 .search_tab table{
 	border-collapse: collapse;
@@ -243,6 +243,10 @@ caption{
 }
 .reg form, .log form{
 	margin-top: 15px;
+	margin-bottom: 15px;
+	background-color: white;
+	padding: 10px;
+	border-radius: 5px;
 }
 .reg form input, .log form input{
 	width: 100%;
@@ -250,8 +254,9 @@ caption{
 	padding: 10px;
 	margin-bottom: 5px;
 	outline: none;
-	border: none;
+	border: 1px solid #464646;
 	background-color: white;
+	border-radius: 5px;
 }
 .reg form, .log form{
 	width: 100%;
