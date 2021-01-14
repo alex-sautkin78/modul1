@@ -6,109 +6,118 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-	<header class="header_block">
-		<div class="logo">
-			<a href="http://projectmod/index.html"><img src="images/logo.png" alt=""></a>
-		</div>
-		<div class="menu">
-			<nav class="menu_nav">
-				<ul>
-					<li><a href="">Акции</a></li>
-					<li><a href="">Поиск</a></li>
-					<li><a href="">Регистрация на рейс</a></li>
-					<li><a href="http://projectmod/login.html">Личный кабинет</a></li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	<div class="slide">
-		Будь добрым к себе. Летай авиакомпанией «Mordovia AVIA»
-		<form action="http://projectmod/search.html" class="form_search">
-			<div class="wraper">
-				<div class="card">
-					<input type="text" placeholder="Откуда">
-				</div>
-				<div class="card">
-					<input type="text" placeholder="Куда">
-				</div>
-				<div class="card">
-					<input type="date" placeholder="Туда">
-				</div>
-				<div class="card">
-					<input type="date" placeholder="Обратно">
-				</div>
-				<div class="card">
-					<select>
-						<option>1</option>
-						<option>2</option>
-						<option>3</option>
-						<option>4</option>
-						<option>5</option>
-						<option>6</option>
-						<option>7</option>
-						<option>8</option>
-					</select>
-				</div>
-				<div class="card">
-					<input type="submit" value="Найти билеты" class="send">
-				</div>
-			</div>
-		</form>
-	</div>
-	<div class="gallery">
-		<div class="thumbnail"> <img src="images/promotions/promotion1.jpg" alt="" width="2000" class="cards"/>
-			<h4>Returning and Changing Your Tickets</h4>
-			<p class="text_column">The pandemic has changed many travelers’ plans, but we know that it will not last forever.
-Once all of this is over, we will continue exploring this world the way we used to.
-Special rules that have been developed for this challenging situation will help you cancel your trip
-or postpone it until later.</p>
-            <div>
-				<input type="submit" value="Подробнее" class="add">
+<header class="header_block">
+    <div class="logo">
+        <a href="http://projectmod/index.html"><img src="images/logo.png" alt=""></a>
+    </div>
+    <div class="menu">
+        <nav class="menu_nav">
+            <ul>
+                <li><a href="">Акции</a></li>
+                <li><a href="">Поиск</a></li>
+                <li><a href="">Регистрация на рейс</a></li>
+                <li><a href="http://projectmod/login.html">Личный кабинет</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+<section class="banner">
+    <h2 class="parallax">Будь добрым к себе. Летай авиакомпанией «Mordovia AVIA»</h2>
+</section>
+<div class="slide">
+    <form action="http://projectmod/search.html" class="form_search">
+        <div class="wraper">
+            <div class="card">
+                <input type="text" placeholder="Откуда" required>
             </div>
-		</div>
-		<div class="thumbnail"> <img src="images/promotions/promotion2.jpg" alt="" width="2000" class="cards"/>
-			<h4>Best offers</h4>
-			<p class="text_column">To see again the streets that witnessed so much. To hug your beloved ones and look back to see
-what you’ve come through. And to think of new dreams that will be so special!</p>
-			<div>
-				<input type="submit" value="Подробнее" class="add">
+            <div class="card">
+                <input type="text" placeholder="Куда" required>
             </div>
-		</div>
-		<div class="thumbnail"> <img src="images/promotions/promotion3.jpg" alt="" width="2000" class="cards"/>
-			<h4>See you more often</h4>
-			<p class="text_column">Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
-see your loved ones more often. Choose our company to fly to where you are always expected.</p>
-            <div>
-				<input type="submit" value="Подробнее" class="add">
+            <div class="card">
+                <input type="text" placeholder="Туда" required>
             </div>
-		</div>
-		<div class="thumbnail"> <img src="images/promotions/promotion4.jpg" alt="" width="2000" class="cards"/>
-			<h4>Everything is on again</h4>
-			<p class="text_column">From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
-a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
-            <div>
-				<input type="submit" value="Подробнее" class="add">
+            <div class="card">
+                <input type="text" placeholder="Обратно" required>
             </div>
-		</div>
-	</div>
-	<div class="subs">
-		<div class="subs_form">
-			<input type="text" name="login" placeholder="Введите email" class="login"><input type="submit" value="Подписаться" class="subm">
-		</div>
-	</div>
-	<footer>
-		<p>Телефон горячей линии: 8 (800) 100-10-10</p>
-		<nav class="foot_nav">
-			<ul>
-				<li><a href="http://projectmod">Home</a></li>
-				<li><a href="http://projectmod/login">Login</a></li>
-				<li><a href="http://projectmod/signup">Sign up</a></li>
-				<li><a href="http://projectmod/contact">Contact</a></li>
-				<li><a href="http://projectmod/news">News</a></li>
-				<li><a href="http://projectmod/return">Return</a></li>
-				<li><a href="http://projectmod/feedback">Feedback</a></li>
-			</ul>
-		</nav>
-	</footer>
+            <div class="card">
+                <select>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+            </div>
+            <div class="card">
+                <input type="submit" value="Найти билеты" class="send">
+            </div>
+        </div>
+    </form>
+</div>
+<div class="gallery">
+    <div class="thumbnail"><img src="images/promotions/promotion1.jpg" alt="" width="2000" class="cards"/>
+        <h4>Returning and Changing Your Tickets</h4>
+        <p class="text_column">The pandemic has changed many travelers’ plans, but we know that it will not last
+            forever.
+            Once all of this is over, we will continue exploring this world the way we used to.
+            Special rules that have been developed for this challenging situation will help you cancel your trip
+            or postpone it until later.</p>
+        <div>
+            <input type="submit" value="Подробнее" class="add">
+        </div>
+    </div>
+    <div class="thumbnail"><img src="images/promotions/promotion2.jpg" alt="" width="2000" class="cards"/>
+        <h4>Best offers</h4>
+        <p class="text_column">To see again the streets that witnessed so much. To hug your beloved ones and look back
+            to see
+            what you’ve come through. And to think of new dreams that will be so special!</p>
+        <div>
+            <input type="submit" value="Подробнее" class="add">
+        </div>
+    </div>
+    <div class="thumbnail"><img src="images/promotions/promotion3.jpg" alt="" width="2000" class="cards"/>
+        <h4>See you more often</h4>
+        <p class="text_column">Since the beginning of January, we have been expanding the geography of flights in Russia
+            so that you can
+            see your loved ones more often. Choose our company to fly to where you are always expected.</p>
+        <div>
+            <input type="submit" value="Подробнее" class="add">
+        </div>
+    </div>
+    <div class="thumbnail"><img src="images/promotions/promotion4.jpg" alt="" width="2000" class="cards"/>
+        <h4>Everything is on again</h4>
+        <p class="text_column">From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be
+            operated twice
+            a day daily, and flights on the Moscow-Dalaman route will be operated three to seven times a week.</p>
+        <div>
+            <input type="submit" value="Подробнее" class="add">
+        </div>
+    </div>
+</div>
+<div class="subs">
+    <div class="subs_form">
+        <input type="text" name="login" placeholder="Введите email" class="login" required>
+        <input type="submit" value="Подписаться" class="subm">
+    </div>
+</div>
+<footer>
+    <div class="conteiner">
+        <p>Телефон горячей линии: 8 (800) 100-10-10</p>
+        <nav class="foot_nav">
+            <ul>
+                <li><a href="http://projectmod">Home</a></li>
+                <li><a href="http://projectmod/login">Login</a></li>
+                <li><a href="http://projectmod/signup">Sign up</a></li>
+                <li><a href="http://projectmod/contact">Contact</a></li>
+                <li><a href="http://projectmod/news">News</a></li>
+                <li><a href="http://projectmod/return">Return</a></li>
+                <li><a href="http://projectmod/feedback">Feedback</a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
 </body>
 </html>
